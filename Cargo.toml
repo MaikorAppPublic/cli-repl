@@ -1,0 +1,18 @@
+[package]
+name = "cli-repl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ray Britton <raybritton@pm.me>"]
+description = "CLI REPL for Maikor"
+license = "MIT"
+repository = "https://github.com/MaikorAppPublic/cli-repl"
+readme = "README.md"
+homepage = "https://maikor.app"
+publish = false
+
+[dependencies]
+maikor-asm-parser = "0.1.5"
+maikor-vm-core = "0.1.6"
+crossterm = "0.23.2"
+color-eyre = "0.6.1"
+maikor-platform = "0.1.19"
