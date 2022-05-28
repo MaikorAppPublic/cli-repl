@@ -11,8 +11,8 @@ homepage = "https://maikor.app"
 publish = false
 
 [dependencies]
-maikor-asm-parser = "0.1.5"
-maikor-vm-core = "0.1.6"
+maikor-asm-parser = "0.1.10"
+maikor-vm-core = "0.1.10"
 crossterm = "0.23.2"
 color-eyre = "0.6.1"
-maikor-platform = "0.1.19"
+maikor-platform = "0.1.25"

@@ -1,10 +1,10 @@
 mod app;
 
-use std::io::stdout;
+use crate::app::run;
+use color_eyre::Result;
 use crossterm::cursor::{Hide, Show};
 use crossterm::ExecutableCommand;
-use color_eyre::Result;
-use crate::app::run;
+use std::io::stdout;
 
 fn main() -> Result<()> {
     setup_terminal()?;
